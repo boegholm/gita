@@ -1,6 +1,7 @@
 name: foo
 on: push
-runs-on: self-hostejobs:
+runs-on: self-hosted
+jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
